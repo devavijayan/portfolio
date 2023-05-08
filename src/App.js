@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 import './App.css';
 import {VStack,Heading,Spacer,Flex} from "@chakra-ui/layout"
 import { IconButton }from '@chakra-ui/button';
@@ -41,7 +41,7 @@ const isDark = colorMode==="dark";
       <Social />
       <Profile />
     </VStack>
-  );
+  )
 }
 
 export default App;

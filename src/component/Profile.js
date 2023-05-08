@@ -76,7 +76,7 @@ const Profile = () => {
         </Flex>
       </Box>
     </Flex>
-  );
+  )
 };
 
 export default Profile;

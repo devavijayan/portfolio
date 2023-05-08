@@ -11,7 +11,7 @@ const Social = () => {
         <Icon as={FaFacebook} boxSize={50}/>
         <Icon as={FaInstagram} boxSize={50}/>
     </HStack>
-  )
+  );
 }
 
 export default Social

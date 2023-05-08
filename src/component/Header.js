@@ -57,7 +57,7 @@ const Header = () => {
         />
     </Flex>
     </Stack>
-  )
+  );
 }
 
 export default Header
