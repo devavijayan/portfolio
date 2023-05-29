@@ -4,6 +4,7 @@ import{useColorMode} from "@chakra-ui/color-mode";
 import {Image} from "@chakra-ui/image";
 import {Circle, Stack, Flex, Box, Text} from "@chakra-ui/layout";
 import {useMediaQuery} from "@chakra-ui/media-query"
+import profile from '../images/profile.jpg'
 
 
 const Header = () => {
@@ -38,7 +39,7 @@ const Header = () => {
             bgGradient="linear(to-r, cyan.400,blue.500,purple.600)"
             bgClip="text"
             >Deva Vijayan</Text>
-            <Text color={isDark ? "gray.200" : "gray.500"} fontWeight="semibold" fontSize="xl">Front End Developer | 
+            <Text color={isDark ? "gray.200" : "gray.500"} fontWeight="semibold" fontSize="xl">Front End Web Developer | 
             Passionate about creating innovative solutions | 
             Fresh Graduate seeking opportunities"</Text>
             <Button mt={8} colorScheme='blue'>
@@ -53,7 +54,7 @@ const Header = () => {
         boxShadow="lg"
         boxSize="300px"
         zIndex="1"
-        src="https://compressjpegonline.com/compressed_images/981254.jpg"
+        src={profile}
         />
     </Flex>
     </Stack>
